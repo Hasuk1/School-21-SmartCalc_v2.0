@@ -2,45 +2,50 @@
 
 ![misssshaaaa](misc/images/misssshaaaa.jpg)
 
-## **Описание проекта**
+## **Information**
 
-Проект предоставляет возможность проведения множества математических операций. А также имеет 3 дополнительных модуля (отрисовка графиков, кредитный калькулятор, депозитный калькулятор). Главной отличительной чертой от [SmartCalc v1.0](https://github.com/Hasuk1/School-21-SmartCalc_v1.0) является использование MVC-паттерна.
+The project provides the ability to perform a variety of mathematical operations. It also has 3 additional modules (charting, credit calculator, deposit calculator). The main difference from [SmartCalc v1.0](https://github.com/Hasuk1/School-21-SmartCalc_v1.0) is the use of MVC-pattern.
 
-Паттерн `MVC` (Model-View-Controller, Модель-Представление-Контроллер) представляет из себя схему разделения модулей приложения на три отдельных макрокомпонента: модель, содержащую в себе бизнес-логику, представление - форму пользовательского интерфейса для осуществления взаимодействия с программой и контроллер, осуществляющий модификацию модели по действию пользователя.
+
+## **Project Architecture**
+
+The `MVC' (Model-View-Controller) pattern is a scheme for dividing application modules into three separate macro components: a model containing the business logic, a view - a form of user interface for interacting with the program, and a controller that modifies the model based on user action.
 
 ![MVC](misc/images/MVC-Process.png)
 
-## **Калькулятор и построение графиков** 
+## **What this app can do**
 
-Калькулятор способен производить расчет выражений в инфиксной записи. 
- Также он способен производить расчет выражений с переменной `x` и подстановкой его значений в виде числа.
- Ввод выражения осуществляется с помощью интерфейса, а затем пользователь может нажать на знак "=" для получения результата.
+### **Calculator and plotting** 
 
-Во второй версии программы переработан функционал приложения. Теперь есть ввод с клавиатуры, обработка чисел в экспоненциальной записи, корректное отображаение строки вывода выражения. 
+The calculator is capable of calculating expressions in infix notation. 
+It is also capable of calculating expressions with the `x` variable and substituting its values as a number.
+The expression is entered using the interface, and then the user can click on the "=" sign to get the result.
+
+In the second version of the program the functionality of the application has been redesigned. Now there is keyboard input, processing of numbers in exponential notation, correct display of the expression output line. 
 
 ![simple](misc/images/simple.gif)
 
-- Интерфейс и функциональность обычного калькулятора и графиков были вдохновлены принципами и дизайном калькулятора Google. Это обеспечивает знакомую и удобную среду для пользователей.
+- The interface and functionality of the regular calculator and charts were inspired by the principles and design of the Google calculator. This provides a familiar and comfortable environment for users.
 
-## **Кредитный калькулятор**
+### **Credit calculator**
 
-Кредитный калькулятор предоставляет возможность оценить параметры и затраты по кредиту перед его взятием.
+The loan calculator provides an opportunity to estimate the parameters and costs of a loan before taking it.
 
-Теперь можно увидеть весь список платежей для дифференцированных платежей, внесены правки в формулу расчета, для более точных результатов, а также отлажены ошибки в работе интерфейса с некорректными данными.
+Now you can see the entire list of payments for differentiated payments, corrections have been made to the calculation formula for more accurate results, and errors in the interface with incorrect data have been debugged.
 
 ![credit](misc/images/credit.gif)
 
-- Для разработки кредитного калькулятора использовались принципы и алгоритмы с сайта [calcus.ru](https://calcus.ru/kreditnyj-kalkulyator), гарантируя точные и надежные расчеты по кредитам.
+- The principles and algorithms from the website [calcus.ru](https://calcus.ru/kreditnyj-kalkulyator) were used to develop the loan calculator, ensuring accurate and reliable loan calculations.
 
-## **Депозитный калькулятор** 
+## **Deposit calculator** 
 
-Депозитный калькулятор предоставляет возможность оценить доходность и налогообложение депозита перед его размещением. Он расчитывает начисленные проценты в зависимости от суммы депозита, срока размещения, процентной ставки, налоговой ставки, периодичности выплат и капитализации процентов.
+The deposit calculator provides an opportunity to estimate the profitability and taxation of a deposit before placing it. It calculates the accrued interest depending on the deposit amount, placement term, interest rate, tax rate, frequency of payments and interest capitalization.
 
-Была исправленна формула, для корректного расчета налога. Интерфейс учитывает размеры отображаемой информации и подстраивается под неё.
+The formula for correct tax calculation has been corrected. The interface takes into account the size of the displayed information and adjusts to it.
 
 ![deposit](misc/images/deposit.gif)
 
-- Для депозитного калькулятора использовались данные и методология расчетов с сайта [banki.ru](https://www.banki.ru/services/calculators/deposits/), обеспечивая точность и актуальность данных.
+- Data and calculation methodology from [banki.ru](https://www.banki.ru/services/calculators/deposits/) were used for the deposit calculator, ensuring the accuracy and relevance of the data.
 
 ## **Supported platforms**
 
