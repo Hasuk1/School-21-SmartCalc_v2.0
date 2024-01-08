@@ -42,22 +42,22 @@
 
 - Для депозитного калькулятора использовались данные и методология расчетов с сайта [banki.ru](https://www.banki.ru/services/calculators/deposits/), обеспечивая точность и актуальность данных.
 
-## **Технические детали** 
+## **Supported platforms**
 
-#### **OS:**
-- MacOS
-- Ubuntu
+- [x] Linux
+- [x] MacOS
+- [ ] Windows
 
-#### **Techology:**
-- Qt5
-- Qt6
-- qmake
-- make 
-- C++
-- Docker (tests)
-- Google tests (cpp)
+## **Stack**
 
-## **Установка** 
+<div>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="CPLUS" alt="CPLUS" width="40" height="40"/>&nbsp;
+    <img src="https://github.com/Hasuk1/School-21-3DViewer_v2.0/blob/main/misc/qt_logo.png" title="CPLUS" alt="CPLUS" width="40" height="30"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg" title="docker" alt="docker" width="40" height="40"/>
+</div>
+
+## **Installation** 
 
 ```shell
 git clone git@github.com:Hasuk1/School-21-SmartCalc_v2.0.git
