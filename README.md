@@ -69,5 +69,3 @@ git clone git@github.com:Hasuk1/School-21-SmartCalc_v2.0.git
 cd School-21-SmartCalc_v2.0/src
 make install
 ```
-
-###### Приложение было создано в рамках программы обучения в школе-21.
